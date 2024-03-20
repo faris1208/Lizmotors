@@ -1,0 +1,343 @@
+@font-face {
+    font-family: InterRegular;
+    src: url("../Fonts/inter/Inter-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: InterBold;
+    src: url("../Fonts/inter/Inter-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: SourRegular;
+    src: url("../Fonts/Sarpanch/Sarpanch-Regular.ttf");
+  }
+
+.Lizmotors-container{
+    width: 100%;
+    margin: 0px auto;
+    // border: 2px solid green;
+}
+
+nav{
+    width: 100%;
+    // border: 2px solid red;
+    background-attachment: fixed;
+    padding: 25px 20px;
+    .Liz-Nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 40px;
+        .Lizmotors h2{
+            font-family: InterBold;
+            font-size: 35px;
+            color: #037786;
+        }
+
+        .Lizmotors-List ul{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            list-style: none;
+
+            li{
+                font-family: InterRegular;
+                font-size: 14px;
+                font-weight: bolder;
+                cursor: pointer;
+                color: #00ACC1;
+
+                &:hover{
+                    color: #06d4f0;
+                }
+
+                .pro{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+
+                    .Down{
+                        font-size: 15px;
+                        color: gray;
+                    }
+                }
+            }
+        }
+
+        .Lizmotors-button{
+            // border: 2px solid purple;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            .get-started-btn{
+                padding: 10px 20px;
+                background: #00ACC1;
+                color: #fff;
+                border: 2px solid #00ACC1;
+                font-size: 15px;
+                font-family: InterRegular;
+                font-weight: 600;
+                border-radius: 10px;
+                border: none;
+                cursor: pointer;
+               
+                &:hover {
+                    color: black;
+                }
+            }
+            .login-btn{
+                padding: 10px 20px;
+                background: #00ACC1;
+                border-radius: 10px;
+                border: 2px solid #00ACC1;
+                color: #00ACC1;
+                background: #fff;
+                font-size: 15px;
+                font-family: InterRegular;
+                font-weight: 600;
+                cursor: pointer;
+
+                &:hover {
+                    color: #04535e;
+                }
+
+            }
+        }
+    }
+}
+
+.Section-container{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+section{
+    background-image: url(../Img/first-car.jpeg);
+    // background: rgba(11, 127, 171, 0.1);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+    .Section-head{
+        position: absolute;
+        width: 100%;
+        height: 550px;
+        background: rgba(11, 127, 171, 0.9);
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+
+        h1{
+            font-family: InterBold;
+            font-size: 75px;
+            text-align: center;
+            margin-top: 100px;
+            color: #fff;
+        }
+
+        p{
+            font-family: InterRegular;
+            font-size: 20px;
+            text-align: center;
+            margin: 20px 0px;
+            width: 60%;
+            color: #fff;
+        }
+
+        .Learn{
+            padding: 10px 25px;
+            border: 2px solid #FFF;
+            color: #00ACC1;
+            border-radius: 10px;
+            font-family: InterRegular;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 20px 0px;
+            cursor: pointer;
+
+            &:hover{
+                background: rgb(214, 211, 211);
+                border: 2px solid rgb(214, 211, 211);
+            }
+        }
+
+    }
+}
+}
+
+.what-we-do{
+    padding: 50px 80px 50px;
+    color: #000;
+    .Improve{
+        text-align: center;
+        p{
+            font-family: SourRegular;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        h3{
+            font-family: InterBold;
+            font-size: 40px;
+            margin: 20px 0px;
+        }
+    }
+
+    .Mission{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        // border: 2px solid green;
+
+        .Mission-Text{
+            // border: 2px solid red;
+            padding: 30px 0px;
+            width: 35%;
+
+            h3{
+                font-family: SourRegular;
+                font-size: 29px;
+                margin-bottom: 20px;
+            }
+
+            p{
+                font-family: InterRegular;
+                font-size: 15px;
+                font-weight: 500;
+                letter-spacing: 0.9;
+                line-height: 25px;
+                width: 70%;
+                color: #000;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #86c4cc;
+    // padding: 20px 0px;
+
+    .footer-last{
+        background-color: #04535e;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px;
+
+        p{
+            font-family: InterRegular;
+            font-size: 15px;
+            font-weight: 600;
+            color: #fff;
+        }
+    }
+
+    .Footer-container{
+        display: flex;
+        gap: 50px;
+        // border: 2px solid red;
+        padding: 20px 40px;
+
+        .Lizmotors-Follows{
+            // border: 2px solid red;
+            padding: 0px;
+            h2{
+                color: #04535e;
+                font-size: 40px;
+                font-family: SourRegular;
+                font-weight: 600;
+                letter-spacing: 0.9px;
+                margin-bottom: 30px;
+            }
+        }
+
+        .Follows{
+            margin: 20px 0px;
+            p{
+                color: #037786;
+                font-size: 15px;
+                font-family: SourRegular;
+                font-weight: 600;
+                letter-spacing: 0.6px;
+            }
+
+            .media{
+                
+                display: flex;
+                gap: 15px;
+                align-items: center;
+                font-size: 25px;
+                margin: 10px 0px;
+
+                .facebook{
+                    color: #037786;
+                    cursor: pointer;
+
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .call{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 10px 0px;
+
+            p{
+                font-size: 15px;
+                color: #037786;
+                font-family: SourRegular;
+            }
+
+            .call-icon{
+                color: #037786;
+                font-size: 20px;
+            }
+
+            .location-icon{
+                color: #037786;
+            }
+        }
+
+        .Services-Head{
+            margin-top: 25px;
+            h3{
+                font-family: InterBold;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 0.7px;
+                margin-bottom: 20px;
+                color: #04535e;
+                text-transform: uppercase;
+            }
+
+            p{
+                font-family: SourRegular;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 0.7px;
+                margin: 10px 0px;
+                cursor: pointer;
+                color: #037786;
+
+                &:hover{
+                    color: #fff;
+                }
+
+            }
+        }
+
+
+    }
+}
